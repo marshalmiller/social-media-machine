@@ -1,0 +1,1 @@
+import{r,j as s}from"./index-ChHXuf40.js";import{a as o,s as t}from"./Item-BHRpsj3I.js";function m(){const e=r.useContext(o);return s.jsx("div",{className:e==="left"||e==="right"?t.menuSpacerRow:t.menuSpacerColumn})}export{m as S};

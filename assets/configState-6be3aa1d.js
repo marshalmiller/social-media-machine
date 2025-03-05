@@ -1,1 +1,0 @@
-import{q as a,ap as n,aq as e}from"./index-02b2945e.js";const c=a({key:"appconfig",default:void 0}),s=n({key:"userconfig",default:void 0}),f=e({key:"configuration",get:i=>({get:o})=>({...o(c),...o(s(i))})});export{c as a,f as c,s as u};

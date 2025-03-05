@@ -1,0 +1,1 @@
+import{r as t,Z as i}from"./index-ChHXuf40.js";function c(n){let{i18n:e,defaultNS:r,children:o}=n;const a=t.useMemo(()=>({i18n:e,defaultNS:r}),[e,r]);return t.createElement(i.Provider,{value:a},o)}export{c as I};
