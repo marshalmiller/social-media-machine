@@ -1,0 +1,6 @@
+async function m(r){const s=await(await fetch(r)).blob();return await new Promise((e,i)=>{const n=Object.assign(new FileReader,{onload:()=>e(n.result),onerror:()=>i(n.error)});n.readAsDataURL(s)})}async function h(r,o,s){return new Promise((e,i)=>{const n=document.createElement("canvas");n.width=o,n.height=s;const t=new Image;t.crossOrigin="anonymous",t.onload=()=>{const a=n.getContext("2d");a&&a.drawImage(t,0,0,o,s),e(n)},t.onerror=a=>{console.error("Image load error",a,r),i()},t.onabort=i,t.src=r})}async function w(r,o=1,s=.01){const e=r.getBBox({stroke:!0}),i=e.width*s,n=e.height*s,t=r.cloneNode(!0);t.setAttribute("width",`${e.width*o}`),t.setAttribute("height",`${e.height*o}`),t.setAttribute("viewBox",`${e.x-i} ${e.y-n} ${e.width+2*i} ${e.height+2*n}`);const a=t.getElementsByTagName("image");for(let c=0;c<a.length;++c)a[c].setAttribute("href",await m(a[c].href.baseVal));const f=await m("https://store.gen-ai.fi/fonts/Andika-Regular.ttf"),g=document.createElement("style");g.innerHTML=`@font-face {
+    font-family: 'Andika';
+    src: URL('${f}') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+} g { font-family: Andika; }`,t.firstElementChild&&t.insertBefore(g,t.firstElementChild);const l=URL.createObjectURL(new Blob([t.outerHTML],{type:"image/svg+xml"}));return(await h(l,e.width*o,e.height*o)).toDataURL("image/png")}export{w as s};

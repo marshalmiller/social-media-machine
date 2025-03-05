@@ -1,0 +1,80 @@
+{
+    "creator": {
+        "titles": {
+            "creator": "Tekijä",
+            "captureImages": "Kuvien ottaminen",
+            "query": "Etsi kuvia",
+            "summary": "Tunnisteen yhteenveto",
+            "embedding": "Luo upotukset",
+            "similarity": "Tarkista samankaltaisuus",
+            "mapping": "Kartta pisteisiin",
+            "points": "Kuvakartta",
+            "cluster": "Klusterointi",
+            "embeddingTrain": "Upotuskoulutus",
+            "mapTraining": "Karttakoulutus",
+            "clusterViewer": "Klusterin tarkastaja",
+            "browser": "Selain",
+            "imageDetail": "Valittu kuva",
+            "addTag": "Lisää tunniste",
+            "local": "Lataa"
+        },
+        "tooltips": {
+            "deleteAll": "Poista kaikki kuvat",
+            "download": "Lataa sisältö Zip"
+        },
+        "labels": {
+            "search": "Haku",
+            "epochs": "Epochs",
+            "loss": "Tappio",
+            "validationLoss": "Vahvistustappio",
+            "maxMemberDist": "Jäsenten enimmäisetäisyys",
+            "minClusters": "Klusterien tavoitemäärä",
+            "minClusterSize": "Klusterin tavoitekoko",
+            "count": "Laske: {{count}}",
+            "latest": "Viimeisin",
+            "popular": "Suosittu",
+            "numberOfImages": "Kuinka monta kuvaa lisätään?",
+            "dimensions": "Mitat",
+            "useLabels": "Käytä tunnisteita",
+            "usePixels": "Käytä pikselidataa",
+            "useEngagement": "Käytä aktiivisuus tietoja",
+            "learningRate": "Oppimisnopeus",
+            "imageSimilarity": "Kuva",
+            "similarityDistrib": "Globaali",
+            "clusterImages": "Kuvat",
+            "clusterStats": "Tunnisteet",
+            "clusterSummary": "Yhteenveto",
+            "addTag": "Tunnisteen nimi",
+            "selectTag": "Valitse tunniste",
+            "selectCluster": "Valitse klusteri",
+            "filter": "Suodatin",
+            "noFilter": "Ei mitään",
+            "byTag": "Tunnisteen mukaan",
+            "byCluster": "Klusterin mukaan",
+            "noTags": "Ei tunnisteita"
+        },
+        "actions": {
+            "addImages": "Lisää kuvia",
+            "generateEmbed": "Generoi",
+            "saveEncoder": "Tallenna",
+            "cluster": "Luo klustereita",
+            "go": "Etsi",
+            "add": "Lisää",
+            "close": "Sulje",
+            "deleteTags": "Poista tunnisteet",
+            "deleteImagesWithTags": "Poista kuvia, joissa on tunnisteet",
+            "mergeTags": "Yhdistä tunnisteet",
+            "findMoreTag": "Etsi lisää tunnisteilla",
+            "train": "Opeta",
+            "deleteCluster": "Poista kuvia klusterista",
+            "deleteImage": "Poista kuva",
+            "cancel": "Peruuta",
+            "addTagToCluster": "Lisää tunniste klusteriin",
+            "unselectAll": "Poista kaikki valinnat"
+        },
+        "messages": {
+            "imageSearch": "Valitse kysely ennen kuvien automaattista lisäämistä",
+            "needsRegen": "Upotukset on luotava uudestaan"
+        }
+    }
+}

@@ -1,0 +1,232 @@
+{
+    "library": {
+        "title": "Valitse sisältö",
+        "generic": {
+            "title": "Alkuperäinen sisältö",
+            "description": "Alkuperäinen Somekone-sisältö, jonka lapset ovat valinneet."
+        },
+        "guidedDefault": {
+            "title": "Ydinkäsitteet",
+            "description": "Esittele keskeiset sosiaalisen median mekanismit rakenteellisella vaiheittaisella käyttöliittymällä luokkahuoneessa."
+        },
+        "kiosk": {
+            "title": "Kiosk-tila",
+            "description": "Automaattinen esittely, joka pyörii, kunnes käyttäjä vuorovaikuttaa."
+        },
+        "public": {
+            "title": "Julkinen demonstraatio",
+            "description": "Käytä turvallisempaa rajoitettua sosiaalista verkostoa suuremmalle yleisölle esitellessä."
+        },
+        "example": {
+            "title": "Esimerkkidata",
+            "description": "Demonstroi käyttämällä anonymisoitua esimerkkidataa 19 lapsesta luokkahuoneympäristössä."
+        },
+        "blank": {
+            "title": "Tyhjä",
+            "description": "Lisää omia valokuviasi tai valitse verkosta luodaksesi räätälöityä sosiaalisen median sisältöä sovellukseen."
+        },
+        "reetta": {
+            "title": "Geneerinen sisältö",
+            "description": "Yli 700 huolellisesti valittua ilmaista kuvaa 7 pääkategoriassa: ruoka, harrastukset, eläimet, elämäntapa, muoti, urheilu ja maisemat."
+        }
+    },
+
+    "menu": {
+        "vis": {
+            "title": "Näkymä",
+            "socialgraph": "Sosiaalinen verkosto",
+            "heatmap": "Lämpökartat",
+            "usergrid": "Käyttäjäruudukko",
+            "coengagement": "Sisällön yhteydet",
+            "topics": "Aiheiden yhteydet"
+        },
+        "tables": {
+            "title": "Tietotaulukot",
+            "actionlog": "Toimintaloki",
+            "userstats": "Käyttäjätaulukko",
+            "contentengage": "Sisällön vuorovaikutukset",
+            "topicengage": "Aiheen vuorovaikutukset"
+        },
+        "guides": {
+            "title": "Ohjatut käyttöliittymät",
+            "default": "Ydinkäsitteet",
+            "kiosk": "Kiosk",
+            "none": "Ei ohjattua käyttöliittymää"
+        },
+        "tools": {
+            "title": "Työkalut",
+            "addcontent": "Lisää sisältöä",
+            "browseContent": "Selaa sisältöä",
+            "simulator": "Käyttäjän simulointi"
+        },
+        "settings": {
+            "title": "Asetukset",
+            "app": "Sovelluksen käyttöliittymä",
+            "recommendation": "Suositukset"
+        }
+    },
+    "settings": {
+        "titles": {
+            "app": "Sovelluksen käyttöliittymäasetukset",
+            "feed": "Syötteen toiminnot",
+            "appmenu": "Valikkokohteet",
+            "recom": "Suositukset",
+            "visualisation": "Visualisaatiot"
+        },
+        "app": {
+            "hideFeedMenu": "Piilota ala-valikko",
+            "hideDataView": "Poista datanäkymä käytöstä",
+            "hideProfileView": "Poista profiilinäkymä käytöstä",
+            "hideRecommendationsView": "Poista suositusnäkymä käytöstä",
+            "hidePostContent": "Poista sisällön julkaisu käytöstä",
+            "hideOwnProfile": "Poista oma profiilisivu käytöstä",
+            "showFeedImageLabels": "Näytä hashtagit kuvissa",
+            "hideSharing": "Poista jakaminen käytöstä",
+            "disableComments": "Poista kommentointi käytöstä",
+            "disableLiking": "Poista tykkääminen käytöstä",
+            "disableFollowing": "Poista seuraaminen käytöstä",
+            "disableSharing": "Poista jakaminen käytöstä",
+            "showRecommendationWizard": "Näytä ohjattu toiminto",
+            "showCandidateWizard": "Henkilökohtainen vai ei-henkilökohtainen",
+            "showCandidateRefinementWizard": "Näytä lisää ehdokasvaihtoehtoja",
+            "showScoringWizard": "Näytä pisteytysasetukset",
+            "showDiversityWizard": "Näytä monimuotoisuusvaihtoehdot",
+            "hideRecommendationMenu": "Piilota valikko",
+            "hideExplainedScores": "Piilota pisteytyksen selitys",
+            "hideCandidateOrigin": "Piilota kuvan alkuperä"
+        },
+        "vis": {
+            "socialMenu": "Näytä sosiaalisen verkoston valikko",
+            "gridMenu": "Näytä käyttäjän ruudukkomenu"
+        }
+    },
+    "dashboard": {
+        "titles": {
+            "settings": "Asetukset",
+            "general": "Yleiset",
+            "feedApp": "Käyttäjien appi",
+            "recommendations": "Suositukset",
+            "socialGraph": "Sosiaalinen verkosto",
+            "people": "Käyttäjät",
+            "deleteUser": "Poista käyttäjä",
+            "connectUsers": "Yhdistä käyttäjiä",
+            "userSelect": "Valitse käyttäjä",
+            "usersSelect": "Valitse käyttäjät",
+            "simulator": "Käyttäjäsimulaattori",
+            "replay": "Toista"
+        },
+        "labels": {
+            "usePopularCandidates": "Käytä suosittuja kuvia",
+            "popularityScore": "Käytä suosiota",
+            "heatmapGlobal": "Kuvan suosio",
+            "heatmapEngagement": "Aikaisempi kuvien aktiivisuus",
+            "heatmapRecommendation": "Kuvan suosituksen todennäköisyys",
+            "theme": "Teema",
+            "themeDefault": "Oletus",
+            "themeHighContrast": "Korkea kontrasti",
+            "showSocialGraphSettings": "Graafin asetukset",
+            "saveGraphImage": "Lataa graafi kuvana",
+            "heatmapUsers": "Valitse näytettävät käyttäjät",
+            "refresh": "Päivitä",
+            "invertHeatmap": "Käänteinen lämpökartta",
+            "shareTip": "Näytä QR-koodi liittyäksesi",
+            "openTip": "Tuo aiemmin tallennettua käyttäjädataa",
+            "saveTip": "Tallenna profiilit ja kuvat",
+            "engagedImages": "Näytä kiinnostaneet kuvat",
+            "topicCloud": "Näytä #hashtagit",
+            "showLines": "Yhdistä samanlaiset asiat viivalla",
+            "showLabels": "Näytä käyttäjien nimet",
+            "edgeScaling": "Skaalaa etäisyyttä ryhmien välillä",
+            "similarPercent": "Yhdistävien viivojen määrä",
+            "nodeCharge": "Solmujen pyrkiminen kauemmas toisistaan",
+            "hideFeedMenu": "Piilota menu kuvavirtanäkymässä",
+            "refreshGraph": "Piirrä verkosto uudelleen",
+            "clusterColouring": "Ryhmittele ja väritä käyttäjäryhmät",
+            "egoSelect": "Valittaessa piilota erillään olevat ",
+            "useTopicCandidates": "Valitse kuvia #hashtagien perusteella",
+            "useRandomCandidates": "Valitse satunnaisesti valittuja kuvia",
+            "useCoengagedCandidates": "Valitse usein yhdessä aktivoineita kuvia",
+            "useSimilarUserCandidates": "Valitse samankaltaisten käyttäjien kuvia",
+            "candidates": "Kuvakandidaattien valintamekaniikat",
+            "scoring": "Kuvien pisteytyksen perusteet",
+            "selectionMechanism": "Lopullisen valinnan perusteet",
+            "tasteScore": "Mieltymysten samankaltaisuus",
+            "sharingScore": "Kuvan jakamisen todennäköisyys",
+            "coengagementScore": "Usein yhdessä kiinnostaneet kuvat",
+            "followingScore": "Tekijän seuraamisen todennäköisyys",
+            "commentingScore": "Kommentoinnin todennäköisyys",
+            "lastSeenScore": "Aika siitä kun kuva on viimeksi näytetty",
+            "reactionScore": "Emojilla reagoinnin todennäköisyys",
+            "viewingScore": "Kuvan katsomisen todennäköisyys",
+            "rankSelection": "Parhaiten sijoittuneet kuvakandidaatit",
+            "distributionSelection": "Laske todennäköisyys pisteytyksen perusteella",
+            "disableFeedApp": "Pysäytä käyttäjien apit",
+            "hideDataView": "Piilota käyttäjiltä datanäkymä",
+            "hideProfileView": "Piilota käyttäjiltä profiilinäkymä",
+            "hideRecommendationsView": "Piilota käyttäjiltä suositusnäkymä",
+            "showData": "Näytä käyttäjän lokitiedot",
+            "showProfile": "Näytä käyttäjän profiili",
+            "showRecommendations": "Näytä käyttäjän suositukset",
+            "deleteUser": "Poista käyttäjä",
+            "showFeed": "Näytä käyttäjän kuvavirta",
+            "collectResearch": "Kerää tutkimusdataa",
+            "showFeedImageLabels": "Näytä #hashtagit kuvavirrassa",
+            "topicThreshold": "#hashtagien määrä per käyttäjä",
+            "allLinks": "Näytä valittaessa kaikki linkit",
+            "showReplay": "Näytä replay-työkalut",
+            "stop": "Pysäytä",
+            "play": "Toista",
+            "appOptions": "Kuva-appin asetukset",
+            "none": "ei mitään",
+            "showSettings": "Opettajan appin asetukset",
+            "showTools": "Näytä lisätyökalut -menu",
+            "toolsMenu": "Lisätyökalut",
+            "toolAnonymise": "Anonymisoi kaikki data",
+            "showMainMenu": "Näytä sovelluksen päävalikko",
+            "alwaysActive": "Pidä nykyinen kuva aktiivisena",
+            "profileImage": "Profiilikuvat",
+            "similarityThreshold": "Samankaltaisuuseron kynnys",
+            "limitLinks": "Enimmäismäärä kaaria solmua kohden",
+            "agentCount": "Agenttien lukumäärä",
+            "playbackSpeed": "Nopeus",
+            "autoCamera": "Automaattinen kamera",
+            "autoEdges": "Automaattinen kaarien säätö",
+            "appType": "User Application Type",
+            "feedApp": "Instagram style",
+            "flowApp": "Data-flow style"
+        },
+        "messages": {
+            "connection": "Mene allaolevaan www-osoitteeseen ja syötä koodi <Code>{{codeText}}</Code>, tai käytä QR -koodia.",
+            "waitingPeople": "Odotetaan käyttäjiä...",
+            "onePerson": "{{count}} käyttäjä on liittynyt mukaan.",
+            "manyPeople": "{{count}} käyttäjää on liittynyt mukaan.",
+            "loading": "Luodaan sosiaalista verkostoa...",
+            "confirmDeleteUser": "Haluatko varmasti poistaa käyttäjän \"{{name}}\""
+        },
+        "actions": {
+            "start": "Aloita",
+            "cancel": "Peruuta",
+            "close": "Sulje",
+            "delete": "Poista",
+            "demo": "Demo",
+            "select": "Valitse",
+            "simulate": "Simuloi",
+            "zoomIn": "Lähennä",
+            "zoomOut": "Loitonna"
+        },
+        "aria": {
+            "linkForFeed": "Linkki uudelle käyttäjän syötteelle",
+            "socialMenu": "Sosiaalisen verkoston valikko",
+            "socialUserMenu": "Käyttäjän valikko",
+            "mainMenu": "Avaa tai sulje sivupäävalikko"
+        }
+    },
+    "tables": {
+        "titles": {
+            "actionlog": "Toimintaloki",
+            "userstats": "Käyttäjätaulukko",
+            "contentengage": "Sisällön vuorovaikutukset",
+            "topictable": "Aiheen vuorovaikutukset"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+function e(r){return r.startsWith("2")?"profile":r.startsWith("1")?"flow":"feed"}function f(r,t){switch(r){case"feed":return`0${t}`;case"flow":return`1${t}`;case"profile":return`2${t}`}}export{f as a,e as c};

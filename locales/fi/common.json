@@ -1,0 +1,307 @@
+{
+    "app": {
+        "language": "Change language"
+    },
+    "about": {
+        "back": "Back",
+        "title": "Generation AI",
+        "privacyTitle": "Privacy Notice",
+        "privacy": [
+            "Welcome to our Privacy Notice, designed to inform you about how we handle your personal data following the General Data Protection Regulation (GDPR) when you use our website featuring the GenAI Somekone tool.",
+            "To make the subject matter of this notice clearer, let us define some terms from the GDPR. The \"controller\" refers to us, as we decide how and why your personal data is used, which also makes us responsible for protecting your personal data. \"Personal data\" includes any information that can identify you directly or indirectly, like your IP address. \"Processing\" covers all actions done with your data, such as collecting, storing, using, and deleting it.",
+            "It is important to read this notice to understand what data we collect from you, why we collect it, what we do with it, and what rights you have regarding your data.",
+            "If you have any questions about this notice, please reach out to the controller:",
+            "**Dr. Nicolas Pope**,",
+            "**Postal address:** University of Eastern Finland, Länsikatu 15, 80110 Joensuu, Finland.",
+            "**Email:** nicolas.pope@uef.fi",
+            "**Phone:** +358 505 288 449.",
+            "### 1. Data Processing Activity:",
+            "We log IP addresses.",
+            "However, we do not use cookies for tracking or analytics; instead, we provide content based solely on your inputs.",
+            "### 2. Purposes of Processing:",
+            "Logging IP addresses helps maintain website integrity and security by identifying and preventing malicious activities.",
+            "### 3. Legal Basis for Processing:",
+            "Primarily, we process IP addresses for security reasons, based on our legitimate interest in protecting our website and data as per Article 6(1)(f) GDPR. Again, we may also process data based on your consent under Article 6(1)(a) GDPR if you would like to exercise your right to access your logged IP address. In addition, we may process your personal data if we are instructed to do so by a competent court under Article 6(1)(c).",
+            "### 4. Legitimate Interests Pursued:",
+            "Our goal is to keep the website running by maintaining website integrity, and security, and preventing abuse.",
+            "### 5. Security:",
+            "We implement security measures to protect your IP addresses from unlawful access or damage. Your IP addresses are encrypted during any subsequent transfer.",
+            "### 6. Data Recipients:",
+            "Only authorized website personnel can access your IP address for security and maintenance purposes.",
+            "### 7. Data Transfers:",
+            "IP addresses may be transferred to Microsoft servers, but we ensure GDPR compliance for data protection.",
+            "### 8. Storage Limitation:",
+            "We keep IP addresses only as long as necessary, typically up to 7 days, unless required by law.",
+            "### 9. Your Rights:",
+            "Under GDPR, you have rights including",
+            "* Right to be informed: In addition to informing, you about processing purposes, retention periods, and to whom your data is shared, you have the right to be informed on how we collect. We collect your IP address when you visit our website.",
+            "* Right to access: you can request a copy of your logged IP address and associated log data.",
+            "* Right to rectification: if the logged data is inaccurate or incomplete, you can request rectification although IP address is not typically something that can be corrected in the same way as other data.",
+            "* Right to erasure: you can request deletion of your IP address within 7 days of your last visit to this website since your address is deleted automatically after 7 days.",
+            "* Right to object: you can object to the processing of your IP addresses.",
+            "* Right to lodge a complaint: you can lodge a complaint to the supervisory authority if you think that your data is not processed following GDPR provisions.",
+            "### 10. Updates to This Privacy Notice:",
+            "We may update this notice to reflect changes in our data processing practices or legal requirements. We will notify you of any changes.",
+            "We value your privacy and we are committed to protect your data and ensuring GDPR compliance. If you have questions or want to exercise your rights, contact us at nicolas.pope@uef.fi."
+        ]
+    },
+    "common": {
+        "errors": {
+            "unknown": "Sovelluksessa tuli virhe.  Yritä uudelleen.",
+            "content_not_found": "Kuvasisältöä ei voi hakea",
+            "peer_failed": "Yhteyden luominen ei onnistu",
+            "peer_retrying": "Yhteys katkesi, yritetään uudelleen...",
+            "peer_nortc": "Laitteiden välille ei saada yhteyttä.  Ovathan molemmat laitteet yhteydessä Internetiin?",
+            "peer_no_peer": "Yhdistettävää laitetta ei löytynyt",
+            "peer_nowebcam": "Web-kameran käyttö pitää sallia jotta monen käyttäjän yhteys onnistuu",
+            "missing_dependency": "Tämän tiedoston tarvitsemaa sisältöä ei löydy",
+            "missing_embeddings": "Kuvista puuttuvat upotukset",
+            "missing_points": "Kuvia ei ole määritetty",
+            "missing_cluster": "Kuvilla ei ole klusteria"
+        },
+        "titles": {
+            "error": "Virhe",
+            "saving": "Tallentaa",
+            "paused": "Pysäytetty"
+        },
+        "messages": {
+            "paused": "Opettaja on pysäyttänyt appin."
+        },
+        "actions": {
+            "close": "Sulje"
+        }
+    },
+    "loader": {
+        "messages": {
+            "getIceConfig": "Selvitän verkkoyhteyden asetuksia",
+            "cameraPermission": "Lupa kameran käyttöön tarvitaan suoran yhteyden muodostamiseksi laitteiden välille.",
+            "connecting": "Yritän yhdistää...",
+            "signaling": "Etsin muita laitteita",
+            "disconnected": "Yhteys toiseen laitteeseen katkesi",
+            "retry": "Yritän yhdistää uudelleen...",
+            "content_load": "Avaan sisältöä",
+            "content_download": "Lataan sisältöä",
+            "ready": "Yhteys valmis",
+            "content_none": "Sisältö valmis",
+            "starting": "Käynnistää",
+            "wifiNetwork": "Tietosi lähetetään internetin kautta, koska et käytä samaa Wi-Fi-verkkoa.",
+            "permNetwork": "Tietosi lähetetään internetin kautta, koska et sallinut kameran käyttöoikeutta.",
+            "quality0": "Checking...",
+            "quality1": "Poor Connection",
+            "quality2": "Connected",
+            "quality3": "Connected",
+            "failed": "No Connection"
+        },
+        "errors": {
+            "unknown": "Ongelma laitteiden välisessä viestinnässä",
+            "id-in-use": "Jollakulla toisella on jo tämä koodi käytössä",
+            "peer-not-found": "Koodia tai QR-koodia ei löytynyt",
+            "missing-ice": "Asetuksia ei löydy",
+            "no-signaling": "Palvelimeen ei saada yhteyttä",
+            "bad-browser": "Tätä appia ei voi käyttää laitteellasi",
+            "unknownContent": "Ongelma kuvasisällössä",
+            "load": "Ongelma kuvien lataamisessa",
+            "download": "Ongelma kuvien hakemisessa",
+            "none": "Ok"
+        },
+        "titles": {
+            "iceConfig": "Asetukset",
+            "permission": "Oikeudet",
+            "connecting": "Yhteys",
+            "error": "Ongelma",
+            "contentLoad": "Kuvasisältö",
+            "networkType": "Informaatio"
+        },
+        "actions": {
+            "close": "Sulje"
+        }
+    },
+    "feed": {
+        "actions": {
+            "follow": "Seuraa",
+            "unfollow": "Älä seuraa",
+            "enterUser": "Aloita",
+            "moreComments": "Lisää",
+            "post": "Lähetä"
+        },
+        "titles": {
+            "shareWith": "Jaa",
+            "main": "Somekone",
+            "home": "Kuvavirta",
+            "data": "Sinun datasi",
+            "share": "Jaa muille",
+            "profile": "Profiilisi",
+            "recommendations": "Suosituksesi",
+            "post": "Julkaise sisältöä"
+        },
+        "placeholders": {
+            "comment": "Kirjoita kommentti..."
+        },
+        "messages": {
+            "noComments": "Kommentteja ei vielä ole.",
+            "usernameError": {
+                "missing": "Käyttäjänimi puuttuu",
+                "long": "Käyttäjänimi on liian pitkä",
+                "short": "Käyttäjänimen pitää olla ainakin 3 merkkiä"
+            },
+            "fullnameError": {
+                "missing": "Oikea nimi puuttuu"
+            },
+            "alreadyOpen": "Tämä appi on jo auki toisessa välilehdessä.",
+            "sharedBy": "Jakanut {{name}}."
+        },
+        "actionlog": {
+            "dwell": "Katsoi kuvaa {{time}} sekuntia",
+            "inactive": "Oli poissa {{time}} sekuntia",
+            "seen": "Näki kuvan",
+            "follow": "Aloitti seuraamaan käyttäjää",
+            "like": "Tykkäsi kuvasta",
+            "share_public": "Jakoi kaikille",
+            "comment": "Lisäsi {{length}} merkin pituisen kommentin",
+            "engagement": "Aktiivisuus: {{score}}/10",
+            "end": "Lopetti appin käytön",
+            "unreact": "Poista reaktio",
+            "hide": "Kuva on piilotetu"
+        },
+        "labels": {
+            "enterUsername": "Anna käyttäjänimesi",
+            "enterFullname": "Anna oikea nimesi",
+            "hidden": "Piilotettu"
+        },
+        "aria": {
+            "showLikeOptions": "Näytä tykkäysvalinnat",
+            "showComments": "Näytä kommentit",
+            "showShareOptions": "Näytä jakamisvalinnat",
+            "shareLink": "Linkki kuva-appiin",
+            "restoreUser": "Palauta aiempi sessio",
+            "hide": "Piilota tämä kuva"
+        }
+    },
+    "profile": {
+        "titles": {
+            "sharingPreference": "Mitä olet jakanut",
+            "viewPreference": "Mitä olet katsonut",
+            "commentPreference": "Mitä olet kommentoinut",
+            "followPreference": "Mitä olet seurannut",
+            "reactPreference": "Mihin olet reagoinut",
+            "yourData": "Sinusta kerätty data",
+            "yourProfile": "Profiilisi",
+            "yourRecommendations": "Suosituksesi",
+            "shareProfile": "Jaa datasi",
+            "engagement": "Aktiivisuutesi",
+            "newPost": "Luo julkaisu"
+        },
+        "labels": {
+            "followers": "Seuraajat",
+            "posts": "Julkaisut",
+            "follows": "Seuraa",
+            "yourPosts": "Omat julkaisut",
+            "missingPosts": "Kun lisäät omia julkaisuja, ne näkyvät täällä."
+        },
+        "actions": {
+            "more": "Lisää",
+            "post": "Julkaisu",
+            "print": "Tulosta",
+            "download": "Lataa kuva"
+        },
+        "messages": {
+            "connection": "Mene alla olevaan osoitteeseen ja syötä koodi <Code>{{codeText}}</Code>, tai käytä QR-koodia."
+        }
+    },
+    "recommendations": {
+        "actions": {
+            "back": "Takaisin",
+            "continue": "Jatka",
+            "close": "Sulje",
+            "change": "Vaihda",
+            "refresh": "Päivitä näkymä",
+            "invert": "vaihda päivänvastaiseksi"
+        },
+        "labels": {
+            "topicCandidate": "Koska olet tykännyt aiheesta #{{topic}}.",
+            "random": "Valittu sinulle sattumanvaraisesti.",
+            "coengagedCandidate": "Koska muut allaolevasta kuvasta kiinnostuneet ovat tykänneet myös tästä.",
+            "similarUserCandidate": "Koska kaltaisesi käyttäjä \"{{userName}}\" piti tästä.",
+            "candidateAll": "Kaikki nämä (oletus)",
+            "candidateLabels": "Käyttäen suosikkihashtagejasi",
+            "candidateUsers": "Samankaltaisilta käyttäjiltä",
+            "candidateCoengaged": "Viimeaikaisen aktiivisuuden perusteella",
+            "candidateRandom": "Mitä tahansa kuvia",
+            "candidatePersonal": "Personoitu",
+            "candidatePopular": "Suositut",
+            "candidateRecent": "Äskettäin julkaistu",
+            "candidateNonPersonal": "Ei-personoitu",
+            "candidatePersonalAndNon": "Molemmat (oletus)",
+            "scoringPredict": "Ennusta aktiivisuus",
+            "scoringGeneral": "Vain sisällön pistemäärä",
+            "scoringRandom": "Mikä tahansa kuva satunnaisesti",
+            "scoringAll": "Yhdistä kaikki pisteet (oletus)",
+            "score": "Pisteet",
+            "diversity": "Vaihtelu",
+            "selectionProbability": "Lisää vaihtelua",
+            "selectionRank": "Ei vaihtelua",
+            "imageGrid": "Näytä parhaat suositukset",
+            "heatmap": "Näytä kaikki kuvat"
+        },
+        "titles": {
+            "candidateDiscovery": "Miten ehdokkaat löydetään?",
+            "scoringOptions": "Miten voimme asettaa kuvat järjestykseen?",
+            "candidatesPersonal": "Mitkä henkilökohtaiset ehdokkaat?",
+            "candidatesNonPersonal": "Miten ei-henkilökohtaiset ehdokkaat valitaan?",
+            "diversityOptions": "Pitäisikö monimuotoisuutta olla?",
+            "candidateOrigin": "Mistä se löydettiin?",
+            "predictedScore": "Ennuste aktiivisuudesta",
+            "explainScore": "Miksi voisit reagoida?"
+        },
+        "descriptions": {
+            "selectHint": "Valitse kuva nähdäksesi, miksi se on ehdotettu.",
+            "heatHint": "Klikkaa zoomataksesi ja tutkiaksesi, mitä voit nähdä.",
+            "scoringPredict": "Ennusta, reagoisitko kuvan kanssa",
+            "scoringGeneral": "Ota vain suosio huomioon",
+            "scoringRandom": "Valitse mikä tahansa järjestys ilman pisteytystä",
+            "scoringAll": "Käytä kaiken yhdistelmää",
+            "candidateAll": "",
+            "candidateUsers": "Kuvat, joista ihmiset samassa klusterissa ovat tykänneet",
+            "candidateLabels": "Etsi kuvia, jotka vastaavat kiinnostuksen kohteitasi",
+            "candidateCoengaged": "Mistä muut tykkäsivät, kun he näkivät samat kuvat",
+            "candidateRandom": "Valitse mitä tahansa kaikista kuvista",
+            "candidatePopular": "Suosituimmista kuvista",
+            "candidateRecent": "Mikä tahansa äskettäin julkaistu, jota ei ole nähty paljoa",
+            "candidatePersonal": "Käytä vain profiiliasi kuvien löytämiseen",
+            "candidateNonPersonal": "Etsi kuvia ilman omaa profiiliasi",
+            "candidatePersonalAndNon": "Käytä sekoitusta henkilökohtaisista ja ei-henkilökohtaisista",
+            "selectionProbability": "Salli joidenkin kuvien, joilla on alhaisemmat pisteet, valitseminen.",
+            "selectionRank": "Valitse vain kuvia, jotka ovat saaneet parhaat pisteet"
+        },
+        "features": {
+            "taste": "Mieltymysten samankaltaisuus",
+            "coengagement": "Yhteinen aktiivisuus",
+            "sharing": "Todennäköisyys että jaat",
+            "commenting": "Todennäköisyys että kommentoit",
+            "following": "On todennäköistä, että seuraat",
+            "reacting": "Todennäköisyys että reagoit",
+            "viewing": "On todennäköistä, että katsot",
+            "lastSeen": "Ei nähty äskettäin",
+            "popularity": "Suosio",
+            "reaction": "On todennäköistä, että reagoit",
+            "lastEngaged": "Ei reagoitu"
+        },
+        "aria": {
+            "imageSelect": "Valitse suosituksen numero {{number}}",
+            "refresh": "Päivitä suositukset",
+            "invert": "muuta lämpökartta päinvastaiseksi",
+            "heatmap": "Näytä kaikkien kuvien todennäköisyyksien lämpökartta",
+            "imageGrid": "Näytä parhaat suositukset ruudukossa"
+        }
+    },
+    "start": {
+        "actions": {
+            "createNew": "Luo uusi",
+            "go": "Aloita"
+        },
+        "labels": {
+            "enterCode": "Syötä koodi",
+            "or": "tai"
+        }
+    }
+}
